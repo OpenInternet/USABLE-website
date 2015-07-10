@@ -1193,7 +1193,7 @@
 			height: 101%;
 			padding: 6em 3em;
 			top: 0;
-			width: 28em;
+			width: 38em;
 		}
 
 		.spotlight.left .content {
@@ -1663,3 +1663,120 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+
+
+/* TIMELINE CSS */
+
+/* -------------------------------------
+ * For horizontal version, set the
+ * $vertical variable to false
+ * ------------------------------------- */
+/* -------------------------------------
+ * General Style
+ * ------------------------------------- */
+
+/* -------------------------------------
+ * timeline
+ * ------------------------------------- */
+#timeline {
+  list-style: none;
+  margin: 50px 0 30px 120px;
+  padding-left: 30px;
+  border-left: 2px solid #eee9dc; }
+  #timeline li {
+    margin: 40px 0;
+    position: relative; }
+  #timeline p {
+    margin: 0 0 15px; }
+
+#timeline .date {
+  margin-top: -10px;
+  top: 50%;
+  left: -158px;
+  font-size: .95em;
+  line-height: 20px;
+  position: absolute; }
+
+#timeline .circle {
+  margin-top: -10px;
+  top: 50%;
+  left: -43px;
+  width: 25px;
+  height: 25px;
+  background: #000000;
+  border: 2px solid #eee9dc;
+  border-radius: 30%;
+  display: block;
+  position: absolute; }
+
+#timeline .timecontent {
+  max-height: 20px;
+  padding: 50px 20px 0;
+  border-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.5em;
+  position: relative; 
+    pointer-events: none;}
+
+#timeline .radio:checked ~   .timecontent:before, #timeline .radio:checked ~  .timecontent:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    position: absolute;
+    right: 100%; }
+#timeline .radio:checked ~   .timecontent:before {
+    border-right-color: inherit;
+    border-width: 18px;
+    top: 50%;
+    margin-top: -20px; }
+#timeline .radio:checked ~   .timecontent:after {
+    border-right-color: #e44c65;
+    border-width: 15px;
+    top: 50%;
+    margin-top: -17px; }
+
+
+#timeline  .timecontent p {
+    max-height: 0;
+    color: transparent;
+    overflow: hidden; }
+
+#timeline label {
+  font-size: 1.2em;
+  padding-left: 5px;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  top: 12px;
+  transition: transform 0.3s linear; }
+
+#timeline .radio {
+  display: none; }
+
+#timeline .radio:checked + .relative label {
+  cursor: auto;
+  font-weight: bold;
+  transform: translateX(22px); }
+
+#timeline .radio:checked + .relative .circle {
+  background: #000000;
+  border-color: #e44c65;}
+
+#timeline .radio:checked ~ .timecontent {
+    text-align: left;
+    background: #e44c65;
+  max-height: 180px;
+  border-color: #eee9dc;
+  margin-right: 20px;
+  transform: translateX(20px);
+  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear; }
+
+
+#timeline  .radio:checked ~ .timecontent p {
+    max-height: 200px;
+    color: #eee9dc;
+    transition: color 0.3s linear 0.3s; }
+
