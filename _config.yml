@@ -1,0 +1,12 @@
+# Site settings
+title: USABLE
+email: your-info@usable.tools
+description: > # this means to ignore newlines until "baseurl:"
+  USABLE connects communities world-wide with leading UX experts and digital security tool developers through trainings, convenings, and small grants support to solve real problems and build better, more usable tools.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://usable.tools" # the base hostname & protocol for your site
+twitter_username: usable_tools
+github_username:  openinternetproject
+
+# Build settings
+markdown: kramdown
