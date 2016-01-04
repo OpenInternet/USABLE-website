@@ -10,7 +10,7 @@ We're very excited to announce USABLE: Usable Security Apps By Leveraging End Us
 
 We're just getting started and are locking in our first communities, and expect to be running these needs-based trainings throughout early 2016. We will be sharing the user personas and learnings from these trainings over the next few months.
 
-<img src="useable-useful.jpg" style="width: 100%; height: auto;"/>
+<img src="/images/blog/useable-useful.jpg" style="width: 100%; height: auto;"/>
 PHASE I
 --------
 USABLE starts by working with communities around the world with concerns about privacy and digital security because of who they are or what they do. USABLE is working with local partners on a needs assessment (based off of <a href="http://internetfreedom.secondmuse.com/needfinding/" target="_blank">Second Muses' framework</a>), and then will design a digital security training based on those needs.
