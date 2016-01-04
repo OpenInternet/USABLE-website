@@ -6,11 +6,11 @@ tags: launch update
 author: Jon
 ---
 
-We're very excited to announce USABLE: Usable Security Apps By Leveraging End Users! USABLE brings a human centered design lens to digital security tools through a three-phase process (detailed out below) with add-on benefits of producing community-led user personas, connecting tool developers with trainers and at-risk users, and encouraging sharing of design patterns and usability challenges along the way.
+<img src="/images/safe.png" align="right" alt="[☺]" /> We're very excited to announce USABLE: Usable Security Apps By Leveraging End Users! USABLE brings a human centered design lens to digital security tools through a three-phase process (detailed out below) with add-on benefits of producing community-led user personas, connecting tool developers with trainers and at-risk users, and encouraging sharing of design patterns and usability challenges along the way.
 
 We're just getting started and are locking in our first communities, and expect to be running these needs-based trainings throughout early 2016. We will be sharing the user personas and learnings from these trainings over the next few months.
 
-<img src="/images/blog/useable-useful.jpg" style="width: 100%; height: auto;"/>
+<img src="/images/blog/useable-useful.jpg" alt="" style="width: 100%; height: auto;"/>
 
 <!--more-->
 
