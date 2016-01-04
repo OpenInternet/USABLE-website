@@ -10,3 +10,4 @@ github_username:  openinternetproject
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
