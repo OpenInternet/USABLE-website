@@ -16,7 +16,7 @@ We're just getting started and are locking in our first communities, and expect 
 
 ### PHASE I
 
-USABLE starts by working with communities around the world with concerns about privacy and digital security because of who they are or what they do. USABLE is working with local partners on a needs assessment (based off of <a href="http://internetfreedom.secondmuse.com/needfinding/" target="_blank">Second Muses' framework</a>), and then will design a digital security training based on those needs.
+USABLE starts by working with communities around the world with concerns about privacy and digital security because of who they are or what they do. USABLE is working with local partners on a needs assessment, and then will design a digital security training based on those needs.
 
 This will not be a "normal" training (if indeed those even exist), as we will match-make the needs of the community with a digital security tool that addresses the security needs, and work with interested developers to send them to the training. In addition, a usability expert (we're working with ThoughtWorks, frog, and some design schools) will also attend and co-facilitate, leading some "blue sky" design work, and helping the community craft a user persona to represent their capabilities, constraints, and desires to others.
 
