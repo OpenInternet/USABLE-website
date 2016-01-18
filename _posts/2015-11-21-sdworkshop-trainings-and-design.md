@@ -1,4 +1,3 @@
-2015-11-21-sdworkshop-learnings2.md
 ---
 layout: post
 title:  "Training and Design: Learnings from the Security and Design Workshop"
