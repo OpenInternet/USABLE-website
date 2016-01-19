@@ -10,7 +10,7 @@ author: Jon
 
 We're just getting started and are locking in our first communities, and expect to be running these needs-based trainings throughout early 2016. We will be sharing the user personas and learnings from these trainings over the next few months.
 
-<img src="/images/blog/useable-cycle.png" alt="USABLE's Approach" style="width: 100%; height: auto;"/>
+<img src="/images/blog/usable-cycle.png" alt="USABLE's Approach" style="width: 100%; height: auto;"/>
 
 <!--more-->
 
