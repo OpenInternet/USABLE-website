@@ -6,7 +6,7 @@ tags: launch update
 author: Jon
 ---
 
-<img src="/images/safe.png"  style="width: 25%; height: auto;" align="right" alt="[☺]" /> We're very excited to announce USABLE: Usable Security Apps By Leveraging End Users! USABLE brings a human centered design lens to digital security tools through a three-phase process (detailed out below) with add-on benefits of producing community-led user personas, connecting tool developers with trainers and at-risk users, and encouraging sharing of design patterns and usability challenges along the way.
+<img src="/images/safe.png"  style="width: 25%; height: auto;" align="right" alt="[☺]" /> We're very excited to announce USABLE: Usable Security Apps By Leveraging End Users! USABLE, a project of <a href="https://www.internews.org" target="_blank">Internews</a>, brings a human centered design lens to digital security tools through a three-phase process (detailed out below) with add-on benefits of producing community-led user personas, connecting tool developers with trainers and at-risk users, and encouraging sharing of design patterns and usability challenges along the way.
 
 We're just getting started and are locking in our first communities, and expect to be running these needs-based trainings throughout early 2016. We will be sharing the user personas and learnings from these trainings over the next few months.
 
@@ -22,8 +22,6 @@ This will not be a "normal" training (if indeed those even exist), as we will ma
 
 These trainings will work with each community through design exercises to reveal both pain-points with the tool they have focused on, but also broader insights into challenges which impact multiple digital security tools. 
 
-<img src="/images/blog/useable-useful.jpg" alt="Useful or Useful?" style="width: 100%; height: auto;"/>
-
 ### PHASE II: UXForum
 
 The second phrase brings together the facilitators and key participants from each of these Tool Feedback Trainings for a 4-day workshop to cross-share the experiences, identify low-hanging fruit, and put together roadmaps to address achievable usability improvements. This "UXForum" will take place in Summer 2016. 
@@ -32,4 +30,10 @@ At the UXForum, we will also run some sidebar conversations around formalizing d
 
 ### PHASE III: UXFund
 
-The final phase is funding these roadmaps to implement usability enhancements and continue engagement and user-testing with the communities (where safe) and trainers.
+The third phase will be providing tool developers with funding to implement usability enhancements based on these experiences, adopting a more human-centered design approach through continued engagement with design experts, and through user-testing with the communities (where safe) and trainers.
+
+### Onwards! 
+
+We are pursuing opportunities to expand this work even further with additional Tool Feedback Trainings, and adapting and evolving our approach as we learn more from this process.  Interested in where we go next?  Please get in touch a <a href="mailto:contact@usable.tools">connect@usable.tools</a>
+
+<img src="/images/blog/useable-useful.jpg" alt="Useful or Useful?" style="width: 100%; height: auto;"/>
