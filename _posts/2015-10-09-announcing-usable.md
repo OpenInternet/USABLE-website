@@ -10,19 +10,25 @@ author: Jon
 
 We're just getting started and are locking in our first communities, and expect to be running these needs-based trainings throughout early 2016. We will be sharing the user personas and learnings from these trainings over the next few months.
 
-<img src="/images/blog/useable-useful.jpg" alt="" style="width: 100%; height: auto;"/>
+<img src="/images/blog/useable-cycle.png" alt="USABLE's Approach" style="width: 100%; height: auto;"/>
 
 <!--more-->
 
-### PHASE I
+### PHASE I: Tool Feedback Trainings
 
 USABLE starts by working with communities around the world with concerns about privacy and digital security because of who they are or what they do. USABLE is working with local partners on a needs assessment, and then will design a digital security training based on those needs.
 
-This will not be a "normal" training (if indeed those even exist), as we will match-make the needs of the community with a digital security tool that addresses the security needs, and work with interested developers to send them to the training. In addition, a usability expert (we're working with ThoughtWorks, frog, and some design schools) will also attend and co-facilitate, leading some "blue sky" design work, and helping the community craft a user persona to represent their capabilities, constraints, and desires to others.
+This will not be a "normal" training (if indeed those even exist), as we will match-make the needs of the community with a digital security tool that addresses the security needs, and work with interested developers to send them to the training. In addition, a usability expert will also attend and co-facilitate, leading some "blue sky" design work, and helping the community craft a user persona to represent their capabilities, constraints, and desires to others.
+
+These trainings will work with each community through design exercises to reveal both pain-points with the tool they have focused on, but also broader insights into challenges which impact multiple digital security tools. 
+
+<img src="/images/blog/useable-useful.jpg" alt="Useful or Useful?" style="width: 100%; height: auto;"/>
 
 ### PHASE II: UXForum
 
-The second "phase" is really just a gathering of the trainers, UX experts, developers, key participants and others for a 4-day workshop to cross-share the experiences, identify low-hanging fruit, and put together roadmaps to address achievable usability improvements. This "UXForum" will take place in Spring or early Summer 2016. We're also planning to have a sidebar for the trainers on formalizing practices and working with developers.
+The second phrase brings together the facilitators and key participants from each of these Tool Feedback Trainings for a 4-day workshop to cross-share the experiences, identify low-hanging fruit, and put together roadmaps to address achievable usability improvements. This "UXForum" will take place in Summer 2016. 
+
+At the UXForum, we will also run some sidebar conversations around formalizing design practices in trainings and working with developers.
 
 ### PHASE III: UXFund
 
