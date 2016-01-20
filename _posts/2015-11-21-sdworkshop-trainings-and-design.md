@@ -6,7 +6,7 @@ tags: design workshop update training levelup adids
 author: Jon
 ---
 At the <a href="/2015/11/20/securitydesigworkshop.html">Security and Design Workshop</a>, we realized that our original plan of book-ending a classic digital security training with human centered design exercises was not ideal -- many elements of learning and exploration that are key to training are similarly core to collaborative design.
-	
+
 To test this out, we spent one afternoon running a digital security training on mobile security. We based the training on the <a href="https://www.level-up.cc/resources-for-trainers/pedagogical-resources/adult-learners">ADIDS adult-learning approach</a>, and used a selection of <a href="https://www.level-up.cc">Level Up curricula</a> components, integrating human-centered design components into the flow of the training.  The rest of this post will run through the components of the training and the outcomes from it.
 
 <!--more-->
@@ -15,7 +15,7 @@ The ADIDS model uses a mix of engagements to help adult participants learn a spe
 
 For the beginning Activity, we used <a href="https://www.level-up.cc/leading-trainings/training-curriculum/activity/internet">We are the Internet</a> (adapting it for mobile communications) by adding in participants (wearing tin-foil hats) as the cell towers.
 
-The Discussion and Input sessions came from the <a href="https://www.level-up.cc/leading-trainings/training-curriculum/mobile-phones">private mobile communications</a> curricula set. 
+The Discussion and Input sessions came from the <a href="https://www.level-up.cc/leading-trainings/training-curriculum/mobile-phones">private mobile communications</a> curricula set.
 
 ## Adding extra letters to ADIDS - ADIDDS?
 
@@ -27,4 +27,4 @@ By having already run through some <a href="/2015/11/20/securitydesignworkshop.h
 
 We then moved into the deepening component, with hands-on installation and practice using the <a href="https://whispersystems.org/">Signal app</a>.  Signal is well-regarded as an amazingly usable app which provides high-end security without a confusing interface -- so it was a bit of a surprise when we discovered that there were still other improvement suggestions from the participants (in many cases due to the differing application security frameworks across iOS and Android). This underlined that even the "best in class" digital security tools can benefit from this process.
 
-(more about Signal, have we posted issues for them? what were the issues?)
+<em>(The issues we wrestled with, mainly around confusion with the different, but very small lock icons in the Android version, are already present in the Signal issue queue in various forms - https://github.com/WhisperSystems/Signal-Android/issues/4390 and https://github.com/WhisperSystems/Signal-Android/issues/2622 -- the lock is absent in Signal on iOS, as Signal does not take over default messaging in the way it can on Android)</em>
