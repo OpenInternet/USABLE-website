@@ -693,12 +693,12 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0.25em;
 		}
 
 		ul.alt {
@@ -1190,7 +1190,7 @@
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 3em 2em;
 			top: 0;
 			width: 38em;
 		}
