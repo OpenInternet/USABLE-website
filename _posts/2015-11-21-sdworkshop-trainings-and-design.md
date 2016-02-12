@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Training and Design: Learnings from the Security and Design Workshop"
+title:  "Training and Design"
 date:   2015-11-21 12:09:25
 tags: design workshop update training levelup adids
 author: Jon
