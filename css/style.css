@@ -876,6 +876,9 @@
 				border-top: 0;
 			}
 
+table#schedule ul li { line-height: 1.25em !important; }
+table#schedule td { padding: .1em .5em !important; }
+
 /* Button */
 
 	input[type="submit"],
