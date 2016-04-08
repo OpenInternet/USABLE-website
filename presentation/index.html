@@ -34,7 +34,7 @@
 h1, h2, h3, h4 {padding: .25em !important;}
 h2 {text-align: left;}
 h3 {text-align: right;}
-p {background-color: rgba(072,065,058,.6);} 
+p {font-size: 1.25em !important; background-color: rgba(072,065,058,.8);} 
 
 .bluegreen h1, .bluegreen h2 {background-color: rgba(000,092,171,.8); }
 .bluegreen h3 {background-color: rgba(100,128,0,.8);}
@@ -67,8 +67,43 @@ p {background-color: rgba(072,065,058,.6);}
 					<h3>Usable Security Apps By Leveraging End Users</h3>
 					<p>
 						<small>Jon Camfield / <a href="mailto:Jon@USABLE.tools">Jon@USABLE.tools</a></small>
+						<small>Megan DeBlois / <a href="mailto:Megan@USABLE.tools">Megan@USABLE.tools</a></small>
 					</p>
 				</section>
+
+
+				<section>
+					<section data-state="blue" data-background="../images/unsplash-dustin_lee_desktop.jpg">
+						<h2>The Background</h2>
+						<p></p>
+
+					</section>
+
+					<section data-state="green" data-background="../images/weakest-linkChain.jpg">
+						<h2>Security is Complicated</h2>
+						<p>Tools must withstand complex attacks from well-resourced adversaries, and must constantly update their defenses against both current and upcoming, theoretical vulnerabilities.</p>
+					</section>
+					<section data-state="blue" data-background="../images/unsplash_Sergei-Zolkin_protractorphoto.jpg">
+						<h2>Training on Threats, not Tools</h2>
+						<p>Digital Security Training needs to focus on skills that at-risk persons need, like understanding their threats and making informed choices in their usage of technology.</p>
+					</section>
+					<section data-state="orange" data-background="../images/unsplashh-jeff_sheldon_ruler.jpg">
+						<h2>Safety needs to Scale</h2>
+						<p>For training to be effecting, participants need to be able to use and understand the tools - and share that knowledge with their colleagues and community members organically.</p>
+					</section>
+					<section data-state="green" data-background="../images/unsplash_Michael_Hull_empathy-bridge.jpg">
+						<h2>Empathy matters.</h2>
+						<p>Building feedback loops and real-world connections between at-risk communities, developers, trainers, and UX designers leads to deeper understanding of the real-world contexts and creates the basis for ongoing interaction.</p>
+					</section>
+					<section data-state="green" data-background-video="../images/tent-usability.webm">
+						<h2>User testing is … revealing.</h2> <div style="min-height: 10em"><br /></div>
+						<!-- <p><video preload="auto" poster="" style="min-height:425.21739130435px; width: 75%;margin: 1em;" width="600" loop="" muted="" autoplay="autoplay"><source src="../images/tent-usability.webm" type="video/webm"></video></p>-->
+					</section>
+
+				</section>
+
+
+
 
 				<section>
 					<section data-state="orange" data-background="../images/unsplash-jeff_sheldon-compass-crop.jpg">
@@ -78,10 +113,10 @@ p {background-color: rgba(072,065,058,.6);}
 					</section>
 					<section data-state="orange" data-background="../images/usable-cycle-legend.png">		</section>
 
-					<section data-state="green" data-background="../images/unsplash_Galymzhan_Abdugalimov_desktop.jpg">
+					<section data-state="orange" data-background="../images/unsplash_Galymzhan_Abdugalimov_desktop.jpg">
 						<h2>Tool Feedback Trainings</h2>
-						<p>Each engagement begins with a Tool Feedback Training (TFT). Led by the community's needs, USABLE connects relevant tool developers, Uexperts, and digital security trainers.<br /> <br />
-						These empower the community, build emapthy-based connections, and provide valuable feedback from difficult to access communities.</p>
+						<p>Each engagement begins with a Tool Feedback Training (TFT). Led by the community's needs, USABLE connects relevant tool developers, UX experts, and digital security trainers.<br /> <br />
+						These empower the community, build empathy-based connections, and provide valuable feedback from difficult to access communities.</p>
 					</section>
 					<section data-state="blue" data-background="../images/ungp_joncamfield_userpersona-square.JPG">
 						<h2>The UXForum</h2>
@@ -101,6 +136,18 @@ p {background-color: rgba(072,065,058,.6);}
 					</section>
 
 				</section>
+
+
+					<section data-state="orange" data-background="../images/unsplash_breather_designtable.jpg" data-background-color="#777777">
+						<h2>Get in touch</h2>
+						<p><img src="/images/safe.svg" align="right" border="0" style="border: 0px !important; padding: .25em !important; height: 6em; background-color: rgba(072,065,058,.1); box-shadow: rgba(0,0,0,0) !important;"/>We want to hear from you, whether you're a tool developer, user experience / design guru, digital security trainer, or just passionate about usable security. <br /> <br />
+						Contact us at Info@USABLE.tools ! </p>
+						<br>
+					</section>
+
+
+
+<!--
 				<section id="transitions">
 					<h2>Transition Styles</h2>
 					<p>
@@ -281,6 +328,8 @@ Reveal.addEventListener( 'customevent', function() {
 						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
 					</p>
 				</section>
+-->
+
 
 			</div>
 
@@ -298,16 +347,13 @@ Reveal.addEventListener( 'customevent', function() {
 				progress: true,
 				history: true,
 				center: true,
+				touch: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
+	  			autoSlide: 8000,
 
 				// Optional reveal.js plugins
 				dependencies: [
-					{ src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
 					{ src: '../reveal.js/plugin/notes/notes.js', async: true }
 				]
 			});
