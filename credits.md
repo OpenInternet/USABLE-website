@@ -15,4 +15,8 @@ The background photo depicting wireframes and a laptop is from [Wireframes - Win
 
 The background photo depicting a wall of post-it notes is ["post it concept wall" by Jennifer Morrow](https://www.flickr.com/photos/donotlick/8447353012)
 
+The [Code of Conduct](/codeofconduct.html) has its own credits and is licensed CC-BY 3.0.
 
+Re-usable design outputs from the USABLE project, such as user personas, will be licensed CC-BY 3.0.
+
+All other content is copyright Internews unless otherwise designated.
