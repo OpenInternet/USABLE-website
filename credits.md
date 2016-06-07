@@ -17,6 +17,9 @@ The background photo depicting a wall of post-it notes is ["post it concept wall
 
 The [Code of Conduct](/codeofconduct.html) has its own credits and is licensed CC-BY 3.0.
 
+The blog tagging system is from [JokeCamp](http://www.jokecamp.com/tag/)
+
 Re-usable design outputs from the USABLE project, such as user personas, will be licensed CC-BY 3.0.
 
 All other content is copyright Internews unless otherwise designated.
+
