@@ -6,15 +6,16 @@
           <ul>
             <li><a class="button special" href="/index.html">Home</a>
             <ul>
+              <li><a href="/index.html#problem">The Problem</a></li>
               <li><a href="/index.html#about">About</a></li>
-              <li><a class="button" href="/blog">Blog</a></li>
               <li><a href="/index.html#process">Process</a></li>
               <li><a href="/index.html#timeline">Timeline</a></li>
+              <li><a href="/index.html#contact">Contact us!</a></li>
             </ul></li>
             <li><a class="button" href="/blog">Blog</a>
               <ul>
-                {% for post in site.posts limit:5 %}
-  							    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% for post in site.posts limit:3 %}
+  							    <li><a href="{{ post.url }}">{{ post.title }} ({{ post.date  | date: '%B'}})</a></li>
   							{% endfor %}
                 		<li><a href="/blog">(more entries)</a></li>
               </ul>
