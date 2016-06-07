@@ -40,14 +40,15 @@
 		-o-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom-color: transparent;
 		color: #e44c65;
 		text-decoration: none;
 	}
 
 		a:hover {
 			color: #e44c65 !important;
-			border-bottom-color: transparent;
+			border-bottom: dotted 1px;
+			
 		}
 
 	strong, b {
