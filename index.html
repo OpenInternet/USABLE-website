@@ -1,83 +1,8 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>USABLE</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="USABLE security" />
-		<meta name="keywords" content="UX, usability, privacy, security" />
-		<link rel="icon" type="image/png" href="images/just-the-smiley.png" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<meta property="og:image" content="https://usable.tools/images/safe.png">
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		    <style>
-		        span.icon:before, a.icon:before 	
-		        {
-		            content:"+";
-		        }
-		    </style>
-</noscript>
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-
-		<!-- Header -->
-			<header id="header" class="skel-layers-fixed">
-				<h1 id="logo"><a href="index.html">Usable Security</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a class="button special" href="index.html">Home</a></li>
-						<li><a class="button" href="/blog.html">Blog</a></li>    
-						<li><a href="index.html#about">About</a></li>
-						<li><a href="index.html#process">Process</a>
-							<ul>
-								<li><a href="trainings.html">Feedback Trainings</a></li>
-								<li><a href="uxforum.html">UXForum</a></li>
-								<li><a href="uxfund.html">UXFund</a></li>
-							</ul>
-						</li>
-						<li><a href="index.html#timeline">Timeline</a></li>
-<!--						<li><a href="index.html#scale">Why USABLE?</a></li>-->
-						<li><a href="index.html#contact">Contact</a></li>
-
-<!--						<li>
-							<a href="">Layouts</a>
-							<ul>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-								<li>
-									<a href="">Blog</a>
-									<ul>
-										<li><a href="#">We've launched!</a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="elements.html">Elements</a></li> -->
-
-					</ul>
-				</nav>
-			</header>
+---
+layout: custom
+overview: true
+title: Making Security Usable
+---
 
 		<!-- Banner -->
 			<section id="banner">
@@ -88,11 +13,36 @@
 						<p><em>U</em>sable <em>S</em>ecurity <em>A</em>pps <em>B</em>y <em>L</em>everaging <em>E</em>nd <em>U</em>sers</p>
 					</header>
 					<span class="image"><img src="images/safe.png" alt="USABLE Icon" /></span>
-						<p style="font-size: 1.5em; padding: 1em 2em; text-align: left;">USABLE is building a <strong>global feedback loop</strong> connecting <strong>at-risk communities</strong> with <strong>digital security trainers</strong>, <strong>usability experts</strong>, and <strong>security tool developers</strong>, bringing a <strong>human centered design</strong> approach to digital security software supporting vulnerable populations around the world.</p>
+						<p style="font-size: 1.25em; padding: .5em 2em; text-align: left;">USABLE is building a <strong>global feedback loop</strong> connecting <strong>at-risk communities</strong> with <strong>digital security trainers</strong>, <strong>usability experts</strong>, and <strong>security tool developers</strong>, bringing a <strong>human centered design</strong> approach to digital security software supporting vulnerable populations around the world.</p>
+						<p style="margin: 0px;"><a href="https://eventbrite.com/e/ux-in-a-high-risk-world-tickets-25739389206" target="_blank"  class="button special">RSVP for <em>UX in a High Risk World</em></a></p>
+				<a href="#problem" class="goto-next scrolly">Next</a>
 
 				</div>
-				<a href="#about" class="goto-next scrolly">Next</a>
 			</section>
+
+<!-- Two -->
+				<section id="problem" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/unsplash_Sergei-Zolkin_protractorphoto.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Why USABLE?</h2>
+							<p> </p>
+						</header>
+						<p>Digital security tools have evolved in response to the multiple, varied challenges that human rights defenders face in extreme environments, but having these technical solutions alone is not sufficient.  Security tools must also be easy and simple to understand, welcoming users from diverse backgrounds and technical skill levels.</p>
+						<p><strong>Any tool, no matter how secure, leaves a user insecure if left unused, or if used insecurely</strong>. Adding a strong usability component to digital security tools reduces the risk of human error, but more importantly it unlocks the potential of real scale. </p>
+
+
+					 <h3>Recent Blog Posts</h3>
+							<ul>
+							{% for post in site.posts limit:3 %}
+							    <li><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date  | date: '%B %d, %Y'}} </li>
+							{% endfor %}
+							</ul>
+
+					</div>
+					<a href="#about" class="goto-next scrolly">Next</a>
+				</section>
+
 
 		<!-- One -->
 			<section id="about" class="spotlight style1 bottom" style="background-image: url(images/unsplash-jeff_sheldon-compass-crop.jpg)">
@@ -134,13 +84,13 @@
 								<span class="icon alt major fa-users"></span>
 								<h3><a href="#" target="_blank"><span class="fa"></span>Ongoing: Tool Feedback Trainings</a></h3>
 								<p><a href="trainings.html">Learn</a> about our needs assessment process, training approach, and user persona generation. <a href="/blog.html">Check out the blog</a> for learnings so far!</p>
-								<p><a href="trainings.html" class="button special">Learn More</a></p>
+								<p><a href="trainings.html" class="button">Learn More</a></p>
 							</section>
 							<section class="4u 6u$(medium) 12u$(xsmall)">
 								<span class="icon alt major fa-university"></span>
 								<h3><a href="uxforum.html" target="_blank"><span class="fa"></span>Summer 2016: UX Forum</a></h3>
 								<p>4-day usability and internet freedom deep-dive bringing together activists, trainers, developers and UX experts; Summer 2016. </p>
-								<p><a href="uxforum.html" class="button">Get Involved</a></p>
+								<p><a href="uxforum.html" class="button special">RSVP Now!</a></p>
 								<!--<p><a href="uxforum.html" class="button">Participate</a></p>-->
 							</section>
 							<section class="4u$ 6u(medium) 12u$(xsmall)">
@@ -294,40 +244,3 @@
 					-->
 				</div>
 			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://twitter.com/USABLE_tools" target="_blank" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://github.com/OpenInternet/USABLE" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon alt fa-key"><span class="label">PGP</span></a></li>
-
-					<li><a href="mailto:connect@usable.tools" class="icon alt fa-envelope"><span class="label"></span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Internews. All rights reserved.</li><li>Safe icon based on <a href="https://thenounproject.com/search/?q=safe&i=18255" target="_blank">Noun Project/Steven-Haycock</a></li><li>Template: <a href="http://html5up.net">HTML5 UP</a></li><li>"Wireframes - Winter Melody" by <a href="https://www.flickr.com/photos/benoitmeunier/6384879257" target="_blank">Benoît Meunier</a></li>
-				</ul>
-			</footer>
-
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setCookieDomain", "*.usable.tools"]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//stats.safetag.org/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 3]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//stats.safetag.org/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
-
-
-<!-- End Piwik Code -->
-
-
-	</body>
-</html>
