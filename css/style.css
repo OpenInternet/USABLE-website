@@ -64,6 +64,7 @@
 	}
 
 	.post-list p, .post-content p { font-size: 1.25em; margin-bottom: .75em;}
+	.post-list h2 {font-weight: bold !important; border-bottom: 1px dotted black;}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
