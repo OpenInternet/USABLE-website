@@ -4,3 +4,6 @@
 *~
 _site
 .sass-cache
+old
+reveal.js/.gitignore
+reveal.js/.travis.yml
