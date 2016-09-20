@@ -6,12 +6,13 @@
           <ul>
             <li><a class="button special" href="/index.html">Home</a>
             <ul>
-              <li><a href="/index.html#problem">The Problem</a></li>
-              <li><a href="/index.html#about">About</a></li>
-              <li><a href="/index.html#process">Process</a></li>
-              <li><a href="/index.html#timeline">Timeline</a></li>
-              <li><a href="/index.html#contact">Contact us!</a></li>
+              <li><a class="button" href="/index.html#problem">The Problem</a></li>
+              <li><a class="button" href="/index.html#about">About</a></li>
+              <li><a class="button" href="/index.html#process">Process</a></li>
+              <li><a class="button" href="/index.html#timeline">Timeline</a></li>
+              <li><a class="button" href="/index.html#contact">Contact us!</a></li>
             </ul></li>
+
             <li><a class="button" href="/blog">Blog</a>
               <ul>
                 {% for post in site.posts limit:3 %}
@@ -19,12 +20,23 @@
   							{% endfor %}
                 		<li><a href="/blog">(more entries)</a></li>
               </ul>
-
-
             </li>
-            <li><a class="button" href="/trainings.html">Trainings</a></li>
-            <li><a class="button" href="/uxforum.html">UXForum</a></li>
-            <li><a class="button" href="/uxfund.html">UXFund</a></li>
+
+            <li><a class="button" href="/resources.html">Resources</a>
+              <ul>
+                <li><a class="button"  href="/resources">Links</a></li>
+                <li><a class="button" href="/personas">Personas</a></li>
+              </ul>
+            </li>
+
+            <li><a class="button" href="/index.html#process">The Process</a>
+              <ul>
+                <li><a class="button" href="/trainings.html">Trainings</a></li>
+                <li><a class="button" href="/uxforum.html">UXForum</a></li>
+                <li><a class="button special" href="/uxfund.html">UXFund</a></li>
+              </ul>
+            </li>
           </ul>
+
         </nav>
       </header>
