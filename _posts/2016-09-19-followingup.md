@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "USABLE Updates, Resources and more!"
-date:   2016-09-19 15:49:01
+date:   2016-09-20 11:49:01
 tags: uxforum resources personas
 author: Jon, Megan
 ---

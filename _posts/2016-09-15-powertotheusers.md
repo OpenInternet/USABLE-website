@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Power to the Users -- From trainings to the UXForum and onwards.
-date:   2016-09-15 16:35:00
+date:   2016-09-20 11:35:00
 tags: uxforum tft feedback uxfund
 author: Jon
 ---
