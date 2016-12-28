@@ -13,7 +13,7 @@ This is an ever-green link-dump post of great resources we come across for bridg
 
 * Slack: SimplySecure.slack.com - email slack@simplysecure.org for an invite
 * [OpenSource Design Resource hub](http://opensourcedesign.net/): http://opensourcedesign.net/  / https://github.com/opensourcedesign 
-* [OTF's Usability lab](https://www.opentech.fund/lab/usability-lab)  (w/[https://simplysecure.org/](SimplySecure))
+* [OTF's Usability lab](https://www.opentech.fund/lab/usability-lab)  (with [Simply Secure](https://simplysecure.org/)
 * [Localization support](http://www.localizationlab.org/)
 
 
