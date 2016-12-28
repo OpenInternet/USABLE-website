@@ -66,6 +66,8 @@ Open Source Design is a growing collection of resources for designers working wi
 
 * [TeachAccess](http://teachaccess.org/initiatives/tutorial/) "The Teach Access initiative has launched a set of best practices for the disciplines responsible for making mobile apps and websites accessible. This tutorial will provide basic training for developers and designers, with more disciplines to come. If you are new to accessibility, you’ve come to the right place – the tutorial will help you get up and running on accessibility via hands-on exercises and useful reference guides. It has been posted on GitHub so that it can be shared widely, enhanced and modified for various uses"
 
+* [Web Accessibility and Testing] (/resources/resource-web-accessibility-testing-final.pdf) This is a brief overview of web accessibility resources for testing created by Nancy Reyes of [HearColors](https://www.hearcolors.com.mx/).
+
 ### Articles
 
 * [How Designing For Disabled People Is Giving Google An Edge](https://www.fastcodesign.com/3060090/how-designing-for-the-disabled-is-giving-google-an-edge?utm_source=feedly&utm_medium=webfeeds) This is a great post on how Google products are becoming more usable for all users due to accessibility improvements, from improved machine learning and notifications to simply being able to read a screen in full sun because it is following good accessibility guidelines for contrast.
