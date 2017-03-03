@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "USABLE at the Internet Freedom Festival"
-date:   2017-03-03 12:00:00
+date:   2017-03-03 11:00:00
 tags: uxfund smallgrants user-engagement 
 author: Megan
 ---
