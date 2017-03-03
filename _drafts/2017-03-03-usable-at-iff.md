@@ -8,6 +8,6 @@ author: Megan
 
 The USABLE team is excited to be gearing up for the Internet Freedom Festival this year to contiue sharing lessons learned by developers looking to listen and engage with their users. Internews will be co-hosting the session with web accessibility expert, Nancy Reyes of HearColors Mexico, to talk about the biggest takeaways developers are learning as they continue with user-testing and exploring different ways to engage with their target users, how they are turning user feedback into concrete usability improvements, as well as the intersectionality of usability and accessibility and why its important. 
 
-The session, <a href="https://internetfreedomfestival.org/wiki/index.php/Usable_and_Accessible_Security_--_lessons_learned_by_engaging_with_users">Usable and Accessible Security -- Lessons Learned by Engaging with Users</a> will be on **Monday (March-6) from 5:00 - 6:00pm in the Attic** at the IFF venue.
+The session, <a href="https://internetfreedomfestival.org/wiki/index.php/Usable_and_Accessible_Security_--_lessons_learned_by_engaging_with_users">Usable and Accessible Security -- Lessons Learned by Engaging with Users</a>, will be on **Monday (March-6) from 5:00 - 6:00pm in the Attic** at the IFF venue.
 
 Hope to see you all there!
