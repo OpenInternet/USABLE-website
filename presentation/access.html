@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Building Accessible and Usable Tools</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Jon Camfield">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/black.css" id="theme">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+<style>
+	h1, h2, h3, h4 {padding: .25em !important;}
+	h2 {text-align: left;}
+	h3 {text-align: right;}
+	p {font-size: 1.25em !important; background-color: rgba(072,065,058,.8);} 
+	.bluegreen h1, .bluegreen h2 {background-color: rgba(000,092,171,.8); }
+	.bluegreen h3 {background-color: rgba(100,128,0,.8);}
+	.orange h1, .orange h2 {background-color: rgba(241,093,034,.8); }
+	.orange h3 {background-color: rgba(100,128,0,.8);}
+	.green h1, .green h2 {background-color: rgba(108,179,063,.8); }
+	.green h3 {background-color: rgba(108,179,063,.8);}
+	.blue h1, .blue h2 {background-color: rgba(000,092,171,.8); }
+	.blue {background-color: rgba(000,092,171,.8);}
+</style>
+		<!--[if lt IE 9]>
+		<script src="../reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-state="bluegreen" data-background="../images/unsplash-dustin_lee_desktop.jpg" data-background-color="#777777">
+					<h1>Building Accessible and Usable Tools</h1>
+					
+					<p>Jon Camfield / <a href="mailto:Jon@USABLE.tools">Jon@USABLE.tools</a>, Internews
+					</p>
+				</section>
+
+				<section>
+
+					<section data-state="blue" data-background-video="../images/internews-bg.webm">
+						<h2>Reducing Information Poverty</h2>
+						<p>Access, Inclusion, Content, and Engagement</p>
+<aside class="notes">Internews’ mission is to reduce “information poverty” We approach that through the lenses of removing barriers to <b>access, addressing systematic exclusion, supporting the creation of content and enabling full engagement with that content.</b></aside>
+					</section>
+
+					<section data-state="blue" data-background="../images/Internews_BamyanPhotography.jpg">
+						<h2>What does Access to Information mean?</h2>
+						<p>Access to information is not binary - it involves the costs associated with that access.</p>
+
+<aside class="notes">Access to information is not binary - it also involves costs, financial, social, and even safety related.  In our <b>Global Technology</b> division, my team’s focus is on the safety and privacy aspects -- is content being censored? Are people at risk for what that say or do online?<br />
+
+This can get very technical, and very dangerous; whether you’re a journalist publishing news critical of your government, an LGBTI advocate, or documenting human rights abuses; the simple act of collecting and sharing information can lead to very real repercussions. </aside>
+					</section>
+
+					<section data-state="blue" data-background="../images/unsplash_breather_designtable.jpg">
+						<h2>Usability and Accessibility</h2>
+						<p>Usable Security Apps By Leveraging End Users <img src="../images/safe.svg" align="right" border="0" style="border: 0px !important; padding: .25em !important; height: 6em; background-color: rgba(072,065,058,.1); box-shadow: rgba(0,0,0,0) !important;"/><br />
+						</p>
+<aside class="notes">This led us to launching USABLE, which brings the developers of tools built for safety to marginalized communities who could benefit the most from them, and facilitate a conversation about what threats these communities face, and what barriers there are in adopting tools and practices to respond.</aside>
+					</section>
+
+	</section>
+
+	<section>
+					<section data-state="orange" data-background="../images/blog/security-workshop-notes-braille_Credit-Mariel%20Garcia%20M.jpg">
+						<h2>The Challenge</h2>
+						<p>Inclusion and Accessibility</p>
+<aside class="notes">We worked with groups including election monitors, women journalists, and LGBTI activists, but the most exceptional group was a consortia of disability rights advocates in Mexico. <br />
+
+Let’s think for a moment about a person with visual impairments - if apps don’t have sensible labels assigned to the interfaces of their element, these tools become absolutely useless.  What we might see as “Accept” and “Cancel” could be read out to someone using a screen reader as “Button 1” and “Button 2” - or the feared "hamburger button".<br />
+
+And let's not even start with the complexities faced when using screen readers combined with translated interfaces</aside>
+					</section>
+
+					<section data-state="orange" data-background="../images/Yahoo-accessibility-lab.jpg">
+						<h2>It's not just sight</h2>
+						<p></p>
+<aside class="notes">Hearing, physical and mobility, and cognitive or nervous system disorders all impact your ability to engage and present barriers for new technologies. <br />
+
+<b>Mobile banking</b> -- especially for people who live far from branches -- is amazingly useful and empowering, but unless the tools are developed with PwDs in mind, they will be even further excluded.</aside>
+					</section>
+
+	</section>
+
+	<section>
+
+					<section data-state="green" data-background="../images/blog/usability-secure-apps-screen%20readers_Credit_Mariel%20Garcia%20M.jpg" >
+						<h2>Solutions</h2>
+						<p></p>
+<aside class="notes">The flip side of all of this is that technology - and especially mobile -restore incredible amounts of autonomy to daily life, in everything from apps to help ensure clothes match to apps that use machine learning to identify objects to the simple value of turn by turn map directions.<br />
+
+Mobile in particular, with built-in screen reading, offer incredible potential to reduce inequalities faced by PwDs.</aside>
+					</section>
+
+
+					<section data-state="green" data-background="../images/unsplash_Michael_Hull_empathy-bridge.jpg">
+						<h2>Empathy matters.</h2>
+						<p>Building feedback loops and real-world connections to marginalized communities is key to effective programs.</p>
+						<p>Human Centered Design is as valid in program design as app development</p>
+<aside class="notes">We have to make sure we are designing with beneficiaries, and not simply for them, and this is as important in project design as in app design. This requires thoughtful and respectful engagement - both with the community and with program staff and technical developers. <br />
+
+At it's core, this is simply "human centered design" </aside>
+					</section>
+
+					<section data-state="green" data-background-video="../images/tent-usability.webm">
+						<h2>Engagement is … Educational.</h2> <div style="min-height: 10em"><br /></div>
+						
+<aside class="notes">Developing with communities and with diverse teams creates better and more usable tools, this goes for PwDs as well as marginalized and at-risk community. <b>Designing for the extremes</b> at the outset. <br />
+
+We are expanding our USABLE work this year to double down on accessibility in the digital safety and security space, as accessibility tools are not necessarily made with security in mind, and vice versa, which is why building connections between users and developers is so vital.</aside>
+					</section>
+
+		</section>
+
+		<section>
+				<section data-state="bluegreen" data-background="../images/unsplash_breather_designtable.jpg" data-background-color="#777777">
+					<h2>Get in touch</h2>
+					<p><img src="../images/safe.svg" align="right" border="0" style="border: 0px !important; padding: .25em !important; height: 6em; background-color: rgba(072,065,058,.1); box-shadow: rgba(0,0,0,0) !important;"/><br />
+					Megan DeBlois, <br /> Program Manager
+					Megan@USABLE.tools <br /><br /> <br /></p>
+				</section>
+
+</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="../reveal.js/lib/js/head.min.js"></script>
+		<script src="../reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				touch: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+	  		
+	  			// autoSlide: 8000,
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
