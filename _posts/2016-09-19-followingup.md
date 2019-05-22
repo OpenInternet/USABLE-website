@@ -4,6 +4,9 @@ title:  "USABLE Updates, Resources and more!"
 date:   2016-09-20 11:49:01
 tags: uxforum resources personas
 author: Jon, Megan
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 We can't believe it's been two months since the UXForum!  To be fair, we had a lot of sleep to catch up on, and there have been some exciting staff transitions over on our team.

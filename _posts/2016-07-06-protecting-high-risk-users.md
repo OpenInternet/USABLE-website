@@ -4,6 +4,9 @@ title:  "Protecting High-Risk Tech Users: A Movement for Usability"
 date:   2016-07-06 15:01:01
 tags: design ux usability accessibility 
 author: Jeanne Bourgault
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 **Connecting developers with users improves tools for human rights defenders**

@@ -4,6 +4,9 @@ title:  "Announcing New USABLE Personas"
 date:   2018-12-28 11:00:00
 tags:  user-engagement
 author: Ashley
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 **Through a series of regional User Experience (UX) Workshops, the USABLE project is enhancing digital security trainers’ understanding of specific usability roadblocks that hinder adoption of important security practices for the highest risk groups across the globe and how to capture and articulate these challenges to tool developers.**

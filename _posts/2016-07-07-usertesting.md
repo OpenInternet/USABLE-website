@@ -4,6 +4,9 @@ title:  "User Testing in Digital Security Training"
 date:   2016-07-07 10:47:00
 tags: tft training feedback usertesting
 author: Jon
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 During our first Tool Feedback Training, we faced some natural reluctance to "complain" about a tool being trained upon, which was magnified by the effect of having a representative from the tool in the training.  To accommodate this, we leveraged the high number of facilitators during each hands-on activity to gather observational data. The trainer would set a short goal (create an account, create a record, share a record), and the participants would work in small groups to accomplish this task, with a facilitator observing each group to note where confusion or problems were occurring.  To balance this with maintaining the flow of the training, the facilitators would keep each group from floundering, and the trainer would review the process for everyone before moving onwards.

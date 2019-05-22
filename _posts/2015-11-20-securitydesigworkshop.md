@@ -4,6 +4,9 @@ title:  "Learnings from the Security and Design Workshop!"
 date:   2015-11-20 12:09:25
 tags: design workshop update
 author: Jon
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 The USABLE project is built around a core commitment to listen - to users, to trainers, and to our partners.  As we began assembling the team of amazing designers and usability experts we are working with, a common thread emerged around a desire to connect and frame their inputs as usability experts for the digital security space and map out how they would engage during the tool feedback trainings.

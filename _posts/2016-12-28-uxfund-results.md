@@ -4,6 +4,9 @@ title:  "Announcing the UXFund Results!"
 date:   2016-12-28 08:00:00
 tags: uxfund smallgrants
 author: Megan
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 The USABLE team is proud to announce the UXFund results for the small, but targeted usability enhancement grants. Many great proposals were received and, after a thorough review process, five organizations for short-term awards were selected. A core component of all grants will be to more directly engage and listen to users, so tool creators can better understand and implement usability improvements that are needed from high-risk communities across the globe.

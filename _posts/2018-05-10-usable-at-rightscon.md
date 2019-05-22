@@ -4,6 +4,9 @@ title:  "USABLE at RightsCon Toronto"
 date:   2018-05-10 11:00:00
 tags: uxfund user-engagement
 author: Megan
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 

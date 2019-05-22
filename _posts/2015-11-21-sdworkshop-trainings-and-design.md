@@ -4,6 +4,9 @@ title:  "Training and Design"
 date:   2015-11-21 12:09:25
 tags: design workshop update training levelup adids
 author: Jon
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 At the <a href="/2015/11/20/securitydesigworkshop.html">Security and Design Workshop</a>, we realized that our original plan of book-ending a classic digital security training with human centered design exercises was not ideal -- many elements of learning and exploration that are key to training are similarly core to collaborative design.
 

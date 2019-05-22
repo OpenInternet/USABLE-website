@@ -4,6 +4,9 @@ title:  "Announcing USABLE!"
 date:   2015-10-09 12:09:25
 tags: launch update
 author: Jon
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 <img src="/images/safe.png"  style="width: 25%; height: auto;" align="right" alt="[☺]" /> We're very excited to announce USABLE: Usable Security Apps By Leveraging End Users! USABLE, a project of <a href="https://www.internews.org" target="_blank">Internews</a>, brings a human centered design lens to digital security tools through a three-phase process (detailed out below) with add-on benefits of producing community-led user personas, connecting tool developers with trainers and at-risk users, and encouraging sharing of design patterns and usability challenges along the way.

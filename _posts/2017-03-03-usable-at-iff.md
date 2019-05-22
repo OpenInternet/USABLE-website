@@ -4,6 +4,9 @@ title:  "USABLE at the Internet Freedom Festival"
 date:   2017-03-03 11:00:00
 tags: uxfund smallgrants user-engagement 
 author: Megan
+main_image: "images/images/unsplash-jeff_Sheldon-chair.jpg"
+main_image_caption: "Photo by Jeff Sheldon on Unsplash"
+draft: false
 ---
 
 The USABLE team is excited to be gearing up for the Internet Freedom Festival this year to contiue sharing lessons learned by developers looking to listen and engage with their users. Internews will be co-hosting the session with web accessibility expert, Nancy Reyes of HearColors Mexico, to talk about the biggest takeaways developers are learning as they continue with user-testing and exploring different ways to engage with their target users, how they are turning user feedback into concrete usability improvements, as well as the intersectionality of usability and accessibility and why it's important. The conversation will be led by our UXFund grantees, including <a href= "https://www.mailvelope.com/en">Mailvelope</a>, <a href= "https://martus.org">Benetech</a>, <a href= "https://www.peerio.com">Peerio</a>, <a href= "http://operatorfoundation.org">Operator Foundation</a>, and <a href= "http://leastauthority.com">Least Authority</a>.
